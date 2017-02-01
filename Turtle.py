@@ -10,8 +10,10 @@ file MyFile.py"""
 import turtle
 LogansTurtle = turtle.Turtle()
 def DrawRectangle(Anyturtle, l, w):
+    l = 20
+    w = 21
     for x in range(4):
-        Anyturtle.forward(12)
+        Anyturtle.forward(l)
         Anyturtle.right(90)
         Anyturtle.forward(w)
 DrawRectangle(LogansTurtle, 4, 4)
