@@ -1,10 +1,15 @@
 """Use the range function to print the numbers from 40 to 1 (backwards)"""
-
+for i in range(40,1,1):
+    print(i)
 
 
 """Repeat the exercise but count by 5's"""
-
+for i in range(40,1,5):
+    print(i)
 
 
 """Write a program that will count print all the multiples of (n) where n is
 taken from user input.  Include necessary print statements."""
+n = n * x
+for i in range(200,10,n):
+    print(i)
